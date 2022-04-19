@@ -6,6 +6,7 @@ function GoodsItem(props) {
     price,
     full_background,
     addToBasket = Function.prototype,
+	
   } = props;
 
   return (
