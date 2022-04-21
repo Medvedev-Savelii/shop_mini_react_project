@@ -30,7 +30,7 @@ const BasketItem = (props) => {
         </i>{" "}
         = {price * quantity} Rub
         <span
-          className="pricesecondary-content"
+          className="secondary-content"
           onClick={() => removeFromBasket(id)}
         >
           <i className="material-icons basket-delet">close</i>
